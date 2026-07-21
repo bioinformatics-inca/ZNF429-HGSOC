@@ -16,10 +16,6 @@
 # Input:
 #   dados_ZNF429_cox.RData
 #
-# Required objects:
-#   tcga_ov_final
-#   PCR_INCA_ADj
-#   PCR_INCA_NEO
 #
 # Important:
 #   - TCGA OS.time is assumed to already be expressed in years.
