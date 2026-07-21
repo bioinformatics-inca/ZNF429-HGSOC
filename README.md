@@ -98,10 +98,8 @@ The script includes:
 - Akaike information criterion;
 - likelihood ratio testing;
 - bootstrap-corrected C-index;
-- bootstrap-corrected calibration slope;
 - time-dependent ROC curves;
 - time-dependent Brier scores;
-- calibration curves;
 - Kaplan–Meier risk stratification.
 
 ### `02_INCA_external_validation_TIME_ROC.R`
