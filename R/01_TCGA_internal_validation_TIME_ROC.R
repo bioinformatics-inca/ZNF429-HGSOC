@@ -89,11 +89,6 @@ cox_data_znf <- cox_data_znf %>%
     ZNF429 = as.factor(ZNF429_survminer)
   ) %>%
   filter(
-    # These three filters remain commented to preserve the original analysis:
-    # !is.na(OS),
-    # !is.na(OS.time),
-    # !is.na(Stage),
-
     !is.na(age_at_initial_pathologic_diagnosis),
     !is.na(ZNF429)
   )
